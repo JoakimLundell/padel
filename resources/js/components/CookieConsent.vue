@@ -43,6 +43,7 @@ export default {
 
         consentCookies() {
             this.setCookie(this.cookieName, 1, 365);
+            this.show = false;
         },
         
         cancel() {
