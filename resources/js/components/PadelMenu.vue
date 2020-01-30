@@ -19,9 +19,9 @@
 export default {
 
     data: function() {
-    return {
-        currentRoute: this.$router.currentRoute
-    }
+        return {
+            currentRoute: this.$router.currentRoute
+        }
     },
 
     watch: {

@@ -12,8 +12,10 @@
 
 export default {
 
-    data:  {
-    
+    data: function() {
+        return {
+            testheader: true
+        }
     
     },
 

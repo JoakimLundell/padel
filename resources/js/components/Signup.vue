@@ -127,7 +127,7 @@
 
 <script>
 export default {
-    data() {
+    data: function() {
         return {
             registration: {
                 name: null,

@@ -2006,6 +2006,33 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -2109,7 +2136,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  data: {}
+  data: function data() {
+    return {
+      testheader: true
+    };
+  }
 });
 
 /***/ }),
@@ -20921,16 +20952,17 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "block" }, [
-    _c("p", { staticClass: "title is-1" }, [_vm._v("Padel i Spanien")]),
+    _c("p", { staticClass: "title is-1" }, [_vm._v("Padelresa till Spanien")]),
     _vm._v(" "),
     _c("p", { staticClass: "subtitle is-3" }, [
-      _vm._v("Torrevieja 23 Mars till 28 Mars")
+      _vm._v("Torrevieja 1 – 6 maj 2020")
     ]),
     _vm._v(" "),
     _vm._m(0),
     _vm._v(" "),
     _c(
       "p",
+      { staticStyle: { "margin-bottom": "20px" } },
       [
         _c(
           "router-link",
@@ -20942,7 +20974,13 @@ var render = function() {
         )
       ],
       1
-    )
+    ),
+    _vm._v(" "),
+    _c("p", { staticClass: "title is-5" }, [_vm._v("Golf & Padel Travel")]),
+    _vm._v(" "),
+    _vm._m(1),
+    _vm._v(" "),
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
@@ -20953,9 +20991,107 @@ var staticRenderFns = [
     return _c("div", { staticClass: "content" }, [
       _c("p", [
         _vm._v(
-          'Vi tänkte sticka till Spanien och lira padel. Vill du följa med? Avresa 12 Mars klockan 10:00. Lorem ipsum Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.'
+          "Följ med på en oförglömlig padelresa till soliga Torrevieja. En totalupplevelse med 7 spelpass (2 tim/pass) fördelat på 6 dagar. Det blir mycket spel, träning med professionella tränare och matchspel."
         )
-      ])
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Vi kan med vår personliga erfarenhet av padel och breda kontaktnät på plats i Torrevieja erbjuda spel på specialutvalda banor, i en härlig miljö med professionella tränare som hjälper dig att utveckla ditt spel."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Alla nivåer på spelare kan följa med; från nybörjare, medel och avancerade är välkomna."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Detta ingår:")]),
+      _vm._v(" "),
+      _c("ul", [
+        _c("li", [_vm._v("Flyg Arlanda – Alicante t/r")]),
+        _vm._v(" "),
+        _c("li", [
+          _vm._v("Boende 5 nätter; del i dubbelrum på **** Hotell La Zenia")
+        ]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Halvpension – frukost & middag")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Transfer flygplatsen t/r samt hotell - padel t/r")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Spel på olika padelbanor  (7 pass)")]),
+        _vm._v(" "),
+        _c("li", [
+          _vm._v(
+            "Träning med professionell tränare och arrangerade tävlingar med priser"
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Bollar och vatten")]),
+        _vm._v(" "),
+        _c("li", [
+          _vm._v("Svensktalande projektledare som är med er under resan")
+        ]),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("p", { staticClass: "title is-4" }, [
+          _vm._v("Pris per person: 10 750:- SEK")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "subtitle is-6" }, [
+          _vm._v("(lagstadgad EU-moms 2,6% tillkommer)")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("p", { staticStyle: { "border-bottom": "1px solid black" } }, [
+        _vm._v("Betalningsvillkor")
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "50% betalas vid bokning, och återbetalas ej vid eventuell avbokning. Slutlikvid betalas senast "
+        ),
+        _c("span", { staticStyle: { "border-bottom": "1px solid black" } }, [
+          _vm._v("15 mars")
+        ]),
+        _vm._v(".")
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Antalet resenärer är begränsat så först till kvarn är det som gäller..."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", { staticStyle: { "border-bottom": "1px solid black" } }, [
+        _vm._v("För anmälan")
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Anmäla via anmälningsfunktionen nedan")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "subtitle is-6" }, [
+      _c(
+        "a",
+        { attrs: { href: "http://www.jakobssonco.se", target: "_new" } },
+        [_vm._v("www.jakobssonco.se")]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v("För mer info:"),
+      _c("br"),
+      _vm._v(" kontakta Urban 070-666 06 08")
     ])
   }
 ]

@@ -53,7 +53,7 @@
 
 <script>
 export default {
-    data() {
+    data: function() {
         return {
             loading: false,
             registrations: null,
