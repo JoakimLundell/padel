@@ -4,7 +4,7 @@
         <p class="subtitle is-3">Torrevieja 1 – 6 maj 2020</p>
         
         <div class="content">
-            <p>Följ med på en oförglömlig padelresa till soliga Torrevieja. En totalupplevelse med 7 spelpass (2 tim/pass) fördelat på 6 dagar. Det blir mycket spel, träning med professionella tränare och matchspel.</p>
+            <p>Följ med på en oförglömlig padelresa till soliga Torrevieja. En totalupplevelse med 7 spelpass (2 tim/pass) fördelat på 4 dagar. Det blir mycket spel, träning med professionella tränare och matchspel.</p>
             <p>Vi kan med vår personliga erfarenhet av padel och breda kontaktnät på plats i Torrevieja erbjuda spel på specialutvalda banor, i en härlig miljö med professionella tränare som hjälper dig att utveckla ditt spel.</p>
             <p>Alla nivåer på spelare kan följa med; från nybörjare, medel och avancerade är välkomna.</p>
             <p>Detta ingår:</p>
