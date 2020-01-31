@@ -24,11 +24,11 @@
             </ul>
             
 
-            <p style="border-bottom: 1px solid black;">Betalningsvillkor</p>
+            <p style="border-bottom: 1px solid #dbdbdb;">Betalningsvillkor</p>
             <p>50% betalas vid bokning, och återbetalas ej vid eventuell avbokning. Slutlikvid betalas senast <span style="border-bottom: 1px solid black;">15 mars</span>.</p>
             <p>Antalet resenärer är begränsat så först till kvarn är det som gäller...</p>
 
-            <p style="border-bottom: 1px solid black;">För anmälan</p>
+            <p style="border-bottom: 1px solid #dbdbdb;">För anmälan</p>
             <p>Anmäla via anmälningsfunktionen nedan</p>
         </div>
         

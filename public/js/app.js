@@ -20991,7 +20991,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "content" }, [
       _c("p", [
         _vm._v(
-          "Följ med på en oförglömlig padelresa till soliga Torrevieja. En totalupplevelse med 7 spelpass (2 tim/pass) fördelat på 6 dagar. Det blir mycket spel, träning med professionella tränare och matchspel."
+          "Följ med på en oförglömlig padelresa till soliga Torrevieja. En totalupplevelse med 7 spelpass (2 tim/pass) fördelat på 4 dagar. Det blir mycket spel, träning med professionella tränare och matchspel."
         )
       ]),
       _vm._v(" "),
@@ -21045,7 +21045,7 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("p", { staticStyle: { "border-bottom": "1px solid black" } }, [
+      _c("p", { staticStyle: { "border-bottom": "1px solid #dbdbdb" } }, [
         _vm._v("Betalningsvillkor")
       ]),
       _vm._v(" "),
@@ -21065,7 +21065,7 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("p", { staticStyle: { "border-bottom": "1px solid black" } }, [
+      _c("p", { staticStyle: { "border-bottom": "1px solid #dbdbdb" } }, [
         _vm._v("För anmälan")
       ]),
       _vm._v(" "),
