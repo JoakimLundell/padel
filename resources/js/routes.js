@@ -1,7 +1,10 @@
 import Home from './components/Home.vue';
 import Signup from './components/Signup.vue';
 import Registrations from './components/Registrations.vue';
+import Login from './components/PadelLogin.vue';
 import NotFound from './components/NotFound.vue';
+
+import store from './store'
 
 export default {
     mode: 'history',
@@ -15,7 +18,7 @@ export default {
         },
         {
             path: '/',
-    
+            name: 'home',
             component: Home
         },
 
@@ -27,8 +30,24 @@ export default {
 
         {
             path: '/registrations',
+            name: 'registrations',
+            component: Registrations,
+            beforeEnter: (to, from, next) => {
+                if(!store.getters['auth/authenticated']){
+                    return next({
+                        'name': 'login'
+                    })
+                }
+                
+                next()
 
-            component: Registrations
+            }
+        },
+
+        {
+            path: '/login',
+            name: 'login',
+            component: Login
         }
     ]
 };
