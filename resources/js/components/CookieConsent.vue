@@ -54,3 +54,9 @@ export default {
     
 }
 </script>
+
+<style scoped>
+.notification {
+    box-shadow: 2px 2px 5px silver;
+}
+</style>
