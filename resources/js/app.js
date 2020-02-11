@@ -8,13 +8,25 @@ import routes from './routes';
 
 import PadelApp from './components/PadelApp';
 
+import store from './store/index.js'
+
 Vue.use(VueRouter);
 
-let app = new Vue({
+//Logga in igen
+store.dispatch('auth/attempt', localStorage.getItem('token')).then(()=> {
+
+
+    let app = new Vue({
     
-    components: {
-        PadelApp
-    },
-    router: new VueRouter(routes),
-    render: h => h(PadelApp)
-}).$mount('#app');
+        components: {
+            PadelApp
+        },
+        
+        router: new VueRouter(routes),
+        store,
+        render: h => h(PadelApp)
+    }).$mount('#app');
+
+    
+});
+
