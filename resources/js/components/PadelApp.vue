@@ -25,7 +25,8 @@
 
             </div>
 
-            <cookie-consent></cookie-consent>
+            <div class="fixed">
+                <cookie-consent></cookie-consent></div>
                 
         </div>
 
@@ -48,3 +49,13 @@ export default {
     
 }
 </script>
+
+<style scoped>
+    .fixed {
+       
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+    }
+</style>
