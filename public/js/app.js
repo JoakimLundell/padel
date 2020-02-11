@@ -2709,8 +2709,8 @@ __webpack_require__.r(__webpack_exports__);
       this.modal = false;
     },
     openModalAboutConsent: function openModalAboutConsent() {
-      this.modalcontent.title = "Samtycke";
-      this.modalcontent.content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet hendrerit mauris et pharetra. Ut vel consequat libero. Donec interdum nibh sed feugiat interdum. Donec sed faucibus sem. Aenean maximus, erat in eleifend hendrerit, elit quam sollicitudin massa, efficitur ultricies ex nunc quis nibh. Sed id tincidunt felis, nec tristique arcu. Nullam dolor urna, maximus vitae rutrum nec, feugiat lacinia urna. Integer tincidunt fermentum eros vel faucibus. Duis eget facilisis odio, id aliquet elit. Fusce in ornare purus. Ut iaculis lacinia nulla, id lacinia velit egestas ultricies. Nam iaculis, felis vel pellentesque semper, velit turpis eleifend erat, in ornare purus risus et leo. Vestibulum pharetra nec felis ut suscipit. Suspendisse potenti. Cras posuere euismod odio, eget iaculis nisl pellentesque quis. Sed a mauris mollis, fermentum nulla in, dignissim tortor. In dictum, metus ac dignissim gravida, mauris libero dapibus tellus, a tempor massa neque at risus. Vestibulum luctus mollis posuere. Donec sed quam semper, dignissim ex a, ullamcorper augue.";
+      this.modalcontent.title = "Samtycke av data i samband med anmälan till padelresa";
+      this.modalcontent.content = "Jag ger samtycke att Jakobsson & Co får spara mina uppgifter i samband med min anmälan till padelresa. Uppgifterna får endast sparas i syfte att användas i samband med resan samt för information om Jakobsson & Co kommande aktiviteter. De samlade uppgifterna om mig får ej överlåtas eller säljas till annan part.";
       this.modal = true;
     },
     openModalConfirmation: function openModalConfirmation() {
@@ -21881,7 +21881,7 @@ var render = function() {
         _c("div", { staticClass: "columns is-vcentered" }, [
           _c("div", { staticClass: "column is-three-quarters" }, [
             _vm._v(
-              "\n            Cookies! På vår sidan används bara funktionella cookies. Vi använder dem för att sidan ska fungera."
+              "\n            Cookies! Vår hemsida använder bara funktionella cookies. De används för att hemsidan ska fungera."
             )
           ]),
           _vm._v(" "),
