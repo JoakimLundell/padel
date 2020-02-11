@@ -14,9 +14,13 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+/*Route::middleware('auth:api')->get('/home', function (Request $request) {
     return $request->user();
-});
+});*/
+
+Route::post('/signin', 'Auth\SigninController');
+Route::post('/signout', 'Auth\SignoutController');
+Route::get('/me', 'Auth\MeController');
 
 Route::get('/registrations', 'RegistrationController@index');
 
