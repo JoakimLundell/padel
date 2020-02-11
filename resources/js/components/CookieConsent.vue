@@ -4,7 +4,7 @@
         <button class="delete" @click="cancel"></button>
         <div class="columns is-vcentered">
             <div class="column is-three-quarters">
-                Cookies! På vår sidan används bara funktionella cookies. Vi använder dem för att sidan ska fungera.</div>
+                Cookies! Vår hemsida använder bara funktionella cookies. De används för att hemsidan ska fungera.</div>
             <div class="column is-one-quarters">
                 <button class="button is-link" @click="consentCookies">Ok</button></div>
         </div>
